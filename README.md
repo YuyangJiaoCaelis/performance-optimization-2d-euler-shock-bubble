@@ -2,7 +2,7 @@
 
 Single-core C++17 finite-volume solver for the two-dimensional compressible Euler equations, built around a Mach 1.22 shock interacting with a helium bubble. The project combines numerical verification with a controlled performance study of compiler settings, data layout, copying, traversal order, and reconstruction caching.
 
-This repository is the cleaned, resume-facing version of an MPhil scientific-computing assignment. It keeps the final code, final report, reproducibility scripts, report figures, and compact evidence tables.
+This public-facing repository keeps the final solver, technical report, reproducibility scripts, report figures, and compact evidence tables.
 
 ## Highlights
 
@@ -52,8 +52,8 @@ Built and optimized a single-core C++17 finite-volume solver for a 2D compressib
 ├── inputs/                       # Digitized benchmark comparison points
 ├── figures/                      # Final report figures
 ├── reports/                      # Final compact evidence tables/summaries
-├── MPhil_Shock_Bubble_Report.pdf # Final report
-└── MPhil_Shock_Bubble_Report.tex # Report source
+├── technical_report.pdf          # Final technical report
+└── technical_report.tex          # Report source
 ```
 
 Large raw simulation outputs and intermediate timing logs are intentionally not tracked. They can be regenerated with the scripts.
@@ -104,10 +104,10 @@ The full workflow rebuilds the solver, reruns the benchmark, regenerates validat
 
 ## Report
 
-The final writeup is included as:
+The final technical writeup is included as:
 
-- `MPhil_Shock_Bubble_Report.pdf`
-- `MPhil_Shock_Bubble_Report.tex`
+- `technical_report.pdf`
+- `technical_report.tex`
 
 The main performance evidence is summarized in:
 
@@ -118,4 +118,4 @@ The main performance evidence is summarized in:
 
 ## Notes
 
-The `references/` and `submission_artifacts/` folders are ignored for public GitHub use. They may exist locally, but the public repository should contain only project-owned code, report material, figures, and compact derived evidence.
+Local reference PDFs and private archives are ignored for public GitHub use. The public repository contains only project-owned code, report material, figures, and compact derived evidence.

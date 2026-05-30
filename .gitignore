@@ -27,6 +27,6 @@ __pycache__/
 *.synctex.gz
 *.toc
 
-# Local/private archive material not intended for public GitHub
+# Local/private material not intended for public GitHub
 references/*.pdf
-submission_artifacts/
+private_artifacts/
