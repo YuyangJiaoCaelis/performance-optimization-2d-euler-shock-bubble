@@ -1,0 +1,5 @@
+Three-level convergence summary
+density: L1 errors 1.925933e-02 -> 1.243937e-02, observed order 0.631; L2 errors 4.124290e-02 -> 3.031782e-02, observed order 0.444
+pressure: L1 errors 3.779753e-03 -> 2.492881e-03, observed order 0.600; L2 errors 7.481511e-03 -> 5.795172e-03, observed order 0.368
+left interface: 66.715 -> 68.336 -> 69.243 mm, observed order 0.840
+right interface: 85.248 -> 86.348 -> 87.217 mm, observed order 0.342

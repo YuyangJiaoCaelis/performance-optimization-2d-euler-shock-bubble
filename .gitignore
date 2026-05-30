@@ -1,0 +1,32 @@
+# Build products
+shock_bubble_solver
+build/
+output/
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+.venv_*/
+
+# macOS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Local/private archive material not intended for public GitHub
+references/*.pdf
+submission_artifacts/

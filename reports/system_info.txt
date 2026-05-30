@@ -1,0 +1,10 @@
+date: 2026-03-06 07:29:45 UTC
+compiler:
+Apple clang version 17.0.0 (clang-1700.6.3.2)
+Target: arm64-apple-darwin25.3.0
+
+cpu:
+Apple M4
+
+hardware:
+25769803776

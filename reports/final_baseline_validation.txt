@@ -1,0 +1,21 @@
+Snapshot: output/final_variant_suite/baseline_bubble_0001.csv
+Grid: 500 x 197
+Time: 0.0003
+Step: 2788
+Case: shock-bubble
+
+Basic checks
+  All reported fields are finite.
+  density range: [3.211243e-01, 1.835612e+00]
+  pressure range: [1.013250e+05, 1.666549e+05]
+  max |velocity_x|: 2.219729e+02
+  max |velocity_y|: 5.003718e+01
+  top/bottom coordinate mismatch: 0.000000e+00
+
+Symmetry check
+  density: L1 = 0.000000e+00, L2 = 0.000000e+00, Linf = 0.000000e+00, max abs = 0.000000e+00
+  pressure: L1 = 0.000000e+00, L2 = 0.000000e+00, Linf = 0.000000e+00, max abs = 0.000000e+00
+  velocity_x: L1 = 0.000000e+00, L2 = 0.000000e+00, Linf = 0.000000e+00, max abs = 0.000000e+00
+  velocity_y: L1 = 0.000000e+00, L2 = 0.000000e+00, Linf = 0.000000e+00, max abs = 0.000000e+00
+  global: total_y_momentum = 4.994304e-11
+

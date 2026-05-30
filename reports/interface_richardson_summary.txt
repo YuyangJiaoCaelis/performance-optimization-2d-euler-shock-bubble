@@ -1,0 +1,3 @@
+Interface Richardson/GCI summary
+left: observed order = 0.840, extrapolated position = 70.390 mm, production relative error = 2.92%, fine relative error = 1.63%, asymptotic ratio = 1.013
+right: observed order = 0.342, extrapolated position = 90.461 mm, production relative error = 4.55%, fine relative error = 3.59%, asymptotic ratio = 1.010

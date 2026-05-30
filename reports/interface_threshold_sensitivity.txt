@@ -1,0 +1,8 @@
+Interface-threshold sensitivity summary
+Threshold sweep fractions: 0.45, 0.50, 0.55 between helium and air density.
+t* ~= 3 jet proxy range: 33.630 to 34.497 mm (central 34.047 mm)
+t* ~= 3 downstream proxy range: 60.097 to 60.791 mm (central 60.459 mm)
+Late-time Fig. 3 jet MAE range: 1.451 to 2.315 mm
+Late-time Fig. 3 downstream MAE range: 3.372 to 4.064 mm
+Production-fine left-shift range: 0.698 to 1.103 mm
+Production-fine right-shift range: 0.745 to 1.000 mm

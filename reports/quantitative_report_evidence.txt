@@ -1,0 +1,15 @@
+Quantitative report evidence
+Interface threshold: 0.752 kg/m^3
+Time scale r/(a_0 M_s): 6.179491071812e-05 s
+Centreline proxy at t* ~= 3: left-from-initial-left = 34.047 mm, right-from-initial-left = 60.459 mm
+Digitized paper range at t* ~= 3: jet = 35.5 to 36.4 mm, downstream = 63.0 to 63.8 mm
+Difference to digitized paper range: jet proxy = 1.453 to 2.353 mm, downstream proxy = 2.541 to 3.341 mm
+Planar-shock plateau check: shocked density/pressure Linf = 0.62%/0.30%, ambient density/pressure Linf = 0.26%/0.37%, ambient velocity_x Linf = 8.734e-01 m/s
+Late-time Fig. 3 trajectory comparison: jet mean abs difference = 1.899 mm (max 3.093 mm), downstream mean abs difference = 3.704 mm (max 4.211 mm)
+Medium-fine interface shift at final time: left = 0.906 mm, right = 0.868 mm
+Threshold sensitivity (45%-55% between helium and air density): t* ~= 3 jet proxy = 33.630 to 34.497 mm (central 34.047 mm), downstream proxy = 60.097 to 60.791 mm (central 60.459 mm)
+Three-level density self-convergence: L1 order = 0.631, L2 order = 0.444
+Field-norm Richardson summary: density GCI21 L1/L2 = 2.84%/10.52%; pressure GCI21 L1/L2 = 0.60%/2.49%
+Interface self-convergence orders: left = 0.840, right = 0.342
+Interface Richardson summary: left extrapolated = 70.390 mm with production relative error 2.92%, right extrapolated = 90.461 mm with production relative error 4.55%
+Bagabir-Drikakis interface-location uncertainty reported around Fig. 3: +/-0.89 to +/-1.335 mm.

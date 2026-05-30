@@ -1,0 +1,11 @@
+Planar-shock reference check
+Snapshot: output/compiler_suite_repeated/baseline_planar_0001.csv
+Grid: 500 x 197
+Final time: 1.000000000000e-05 s
+Exact shock position: 9.046 mm
+Excluded transition half-width: 2.700 mm (6 cells)
+Shocked plateau cell count: 2758
+Ambient plateau cell count: 93378
+Density plateau relative Linf: shocked = 0.619%, ambient = 0.263%
+Pressure plateau relative Linf: shocked = 0.301%, ambient = 0.370%
+Ambient velocity_x absolute Linf: 8.734102e-01 m/s
