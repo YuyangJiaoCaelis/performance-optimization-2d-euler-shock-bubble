@@ -1,5 +1,7 @@
 # Performance Optimization of a 2D Euler Shock-Bubble Solver
 
+[![CI](https://github.com/YuyangJiaoCaelis/performance-optimization-2d-euler-shock-bubble/actions/workflows/ci.yml/badge.svg)](https://github.com/YuyangJiaoCaelis/performance-optimization-2d-euler-shock-bubble/actions/workflows/ci.yml)
+
 Single-core C++17 finite-volume solver for the two-dimensional compressible Euler equations, built around a Mach 1.22 shock interacting with a helium bubble. The project combines numerical verification with a controlled performance study of compiler settings, data layout, copying, traversal order, and reconstruction caching.
 
 This public-facing repository keeps the final solver, technical report, reproducibility scripts, report figures, and compact evidence tables.
@@ -37,7 +39,7 @@ Interface tracking against digitized benchmark data:
 
 ![Interface tracking](figures/Figure_3_interface_tracking.png)
 
-## Resume Summary
+## Project Summary
 
 Built and optimized a single-core C++17 finite-volume solver for a 2D compressible Euler shock-bubble benchmark; validated numerical behavior, reproduced key Mach 1.22 morphology from the literature, and quantified implementation-level performance effects including a `~19x` slowdown from dynamic per-cell state storage and a `~1.67x` slowdown from disabling reconstruction caching.
 
@@ -45,9 +47,11 @@ Built and optimized a single-core C++17 finite-volume solver for a 2D compressib
 
 ```text
 .
+├── .github/workflows/ci.yml      # GitHub Actions smoke test
 ├── solver.cpp                    # Main C++17 solver
 ├── Makefile                      # Build and smoke-test targets
 ├── reproduce_report_data.sh       # Full report-data reproduction workflow
+├── LICENSE                       # MIT license
 ├── scripts/                      # Validation, timing, and analysis scripts
 ├── inputs/                       # Digitized benchmark comparison points
 ├── figures/                      # Final report figures
